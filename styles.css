@@ -7,18 +7,21 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-auto-rows: 1fr 4fr;
+    height: 100vh;
 }
 
 .sidebar {
-    background-color: cornflowerblue;
+    background-color: #0284c7;
     grid-column: 1/2;
     grid-row: 1/4;
     display: grid;
-    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-rows: auto auto 1fr;
+    grid-gap: 35px;
+    font-family: sans-serif;
 }
 
 .side-bar-first-section {
-    padding: 10px;
+    padding: 30px;
     grid-row: 2/3;
 }
 
@@ -30,6 +33,7 @@
     background-color: darkgreen;
 }
 
+
 a {
     width: 3vw;
     display: flex;
@@ -40,6 +44,7 @@ a {
 
 .dashboard {
     padding-top: 15px;
+    padding-left: 10px;
 }
 
 #text-icon {
@@ -47,18 +52,20 @@ a {
     font-size: 2vw;
 }
 
+
+
 .icons {
-    width: 30px;
+    width: 25px;
 }
 
 li {
     list-style-type: none;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .icon-element {
     display: flex;
-    width: 30px;
+    width: 25px;
     align-items: center;
 
 }
@@ -66,19 +73,24 @@ li {
 .second-section-div {
     display: grid;
     grid-row: 3/4;
-    padding: 10px;
+    padding: 30px;
 }
+
+.second-section li {
+    padding-top: 30px;
+}
+
 
 
 
 .icon-text {
     color: white;
     margin-left: 15px;
-    font-size: 1em;
+    font-size: 20px;
 }
 
 #icon-text {
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10px;
     font-weight: bold;
 }
