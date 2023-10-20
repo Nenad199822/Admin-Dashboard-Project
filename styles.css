@@ -32,11 +32,33 @@ a {
 }
 
 .dashboard {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 #text-icon {
     margin-left: 10px;
+    font-size: 2vw;
+}
+
+.icons {
+    width: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icon-element {
+    display: flex;
+    width: 30px;
+    align-items: center;
+
+}
+
+.icon-text {
+    color: white;
+    margin-left: 15px;
+    font-size: 2vw;
 }
 
 #icon-text {
