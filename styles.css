@@ -20,6 +20,21 @@
     font-family: sans-serif;
 }
 
+#search-icon {
+    width: 1.3vw;
+}
+
+#bell-icon {
+    width: 1.6vw;
+}
+
+#horse-photo {
+    width: 3.7vw;
+    border-radius: 50%;
+}
+
+
+
 .side-bar-first-section {
     padding: 30px;
     grid-row: 2/3;
