@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -21,7 +22,9 @@
 }
 
 #search-icon {
-    width: 1.3vw;
+    width: 1.5vw;
+    margin-right: 15px;
+    justify-self: center;
 }
 
 #bell-icon {
@@ -29,7 +32,7 @@
 }
 
 #horse-photo {
-    width: 3.7vw;
+    width: 3vw;
     border-radius: 50%;
 }
 
@@ -40,8 +43,53 @@
     grid-row: 2/3;
 }
 
+#search {
+    width: 33vw;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    background-color: #e2e8f0;
+}
+
 .header {
     background-color: brown;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: #fafaf9;
+}
+
+.profile-name {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    font-size: 1.4vw;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.header-up-first-section {
+    width: 55%;
+    justify-content: center;
+}
+
+.header-up-second-section {
+    justify-content: space-around;
+    width: 20vw;
+    margin-right: 20px;
+}
+
+.header-up-first-section,
+.header-up-second-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-up-side {
+    display: flex;
+    padding: 15px 0 0 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-content {

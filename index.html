@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap" rel="stylesheet">
     <title>Admin-Dashboard-Project</title>
 </head>
 
@@ -83,11 +84,17 @@
         </div>
         <div class="header">
             <div class="header-up-side">
-                <label for="search"><img src="images/magnify.svg" id="search-icon" alt="magnify-icon"></label>
-                <input type="search" id="search" name="search">
-                <img src="images/bell-ring-outline.svg" alt="bell-ring-icon" id="bell-icon">
-                <img src="images/16704035_3800_1_06.jpg" alt="profile-photo1" id="horse-photo">
-                <h3>Header</h3>
+                <div class="header-up-first-section">
+                    <div class="search-bar">
+                        <label for="search"><img src="images/magnify.svg" id="search-icon" alt="magnify-icon"></label>
+                        <input type="search" id="search" name="search">
+                    </div>
+                </div>
+                <div class="header-up-second-section">
+                    <img src="images/bell-ring-outline.svg" alt="bell-ring-icon" class="clickable" id="bell-icon">
+                    <img src="images/16704035_3800_1_06.jpg" alt="profile-photo1" class="clickable" id="horse-photo">
+                    <h3 class="profile-name">Giovanni Giorgio</h3>
+                </div>
             </div>
         </div>
         <div class="main-content">
