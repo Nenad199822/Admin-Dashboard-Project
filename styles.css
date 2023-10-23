@@ -110,7 +110,7 @@ li {
     width: 1.6vw;
 }
 
-#horse-photo {
+#bee-photo {
     width: 3vw;
     border-radius: 50%;
 }
@@ -152,7 +152,7 @@ li {
 }
 
 .header-up-first-section {
-    width: 55%;
+    width: 45%;
     justify-content: center;
 }
 
@@ -173,6 +173,34 @@ li {
     padding: 15px 0 0 30px;
     justify-content: space-between;
     align-items: center;
+}
+
+.hi-text {
+    font-size: 18px;
+}
+
+.profile-text {
+    margin-left: 20px;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.header-down-side {
+    display: flex;
+    align-items: center;
+}
+
+.profile-text-down {
+    display: flex;
+    font-size: 25px;
+}
+
+.profile-down-side {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: center;
 }
 
 /* Header End */
