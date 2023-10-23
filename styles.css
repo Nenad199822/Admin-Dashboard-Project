@@ -32,7 +32,7 @@ a {
 .sidebar {
     background-color: #0284c7;
     grid-column: 1/2;
-    grid-row: 1/4;
+    grid-row: 1/3;
     display: grid;
     grid-template-rows: auto auto 1fr;
     grid-gap: 35px;
@@ -259,3 +259,6 @@ button {
 }
 
 /* Header End */
+.main-content {
+    grid-row: 2/3;
+}
