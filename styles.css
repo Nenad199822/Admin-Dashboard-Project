@@ -37,6 +37,8 @@ a {
     grid-template-rows: auto auto 1fr;
     grid-gap: 35px;
     font-family: sans-serif;
+    max-width: 100%;
+    min-width: 50%;
 }
 
 
@@ -130,10 +132,11 @@ li {
 }
 
 .header {
-    background-color: brown;
+    position: relative;
     display: grid;
     grid-template-rows: auto 1fr;
     background-color: #fafaf9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 
@@ -261,4 +264,5 @@ button {
 /* Header End */
 .main-content {
     grid-row: 2/3;
+    background-color: white;
 }
