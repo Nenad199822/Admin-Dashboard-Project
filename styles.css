@@ -264,5 +264,12 @@ button {
 /* Header End */
 .main-content {
     grid-row: 2/3;
+    background-color: #a9ced8;
+
+}
+
+.project {
+    width: 25vw;
+    height: 15vw;
     background-color: white;
 }
