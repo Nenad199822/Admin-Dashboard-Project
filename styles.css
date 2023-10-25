@@ -290,13 +290,15 @@ button {
 }
 
 .project {
-    width: 25vw;
-    height: 12vw;
+    width: 20vw;
+    height: 15vw;
     background-color: white;
     display: flex;
     flex-direction: column;
     padding: 30px 20px 30px 30px;
     justify-content: space-around;
+    border-radius: 7px;
+    border-left: 10px solid #fb923c;
 
 }
 
@@ -313,14 +315,15 @@ button {
 }
 
 .your-projects {
-    padding: 20px 10px 20px 20px;
+    padding: 2rem;
     display: grid;
     gap: 20px 20px;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .your-project-text {
     padding-top: 40px;
-    padding-left: 20px;
+    padding-left: 40px;
     font-family: sans-serif;
 }
