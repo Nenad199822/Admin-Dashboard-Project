@@ -264,12 +264,17 @@ button {
 /* Header End */
 .main-content {
     grid-row: 2/3;
-    background-color: #a9ced8;
+    background-color: #c2dee6;
 
 }
 
 .project {
-    width: 25vw;
-    height: 15vw;
+    width: 22vw;
+    height: 12vw;
     background-color: white;
+
+}
+
+.project-icons {
+    width: 1.5vw;
 }
