@@ -418,9 +418,11 @@ button {
 }
 
 
+
 .trending-profile-image {
-    width: 3.5vw;
+    width: 3.3vw;
     border-radius: 50px;
+
 }
 
 .trending-item {
@@ -430,7 +432,7 @@ button {
 }
 
 .profile-trending-text {
-    padding-top: 12px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
@@ -444,5 +446,5 @@ button {
 
 .profile-p-tag {
     font-size: 15px;
-    padding-top: 5px;
+    padding-top: 3px;
 }
