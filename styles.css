@@ -290,7 +290,7 @@ button {
 }
 
 .project {
-    width: 28vw;
+    width: 27vw;
     height: 10vw;
     background-color: white;
     display: flex;
@@ -372,8 +372,20 @@ button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.site-maintenance:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.section-announcements-last {
+    width: 18vw;
+    height: 5vw;
+    padding: 1.4rem;
+
+}
+
 .section-announcements {
-    width: 15vw;
+    width: 18vw;
     height: 5vw;
     padding: 1.4rem;
     border-bottom: 0.3px solid rgb(177, 173, 173);
@@ -384,14 +396,53 @@ button {
     flex-direction: column;
     align-items: center;
     grid-row: 2/3;
-    width: 17vw;
-    height: 16vw;
+    width: 20vw;
+    height: 15vw;
     margin-top: 21px;
     background-color: #fdffff;
     border-radius: 7px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
-.trending-container {
-    margin-top: 20px;
+/* Trending Container */
+.trending {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.trending-profiles {
+    background-color: #fdffff;
+    width: 20vw;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.trending-profile-image {
+    width: 3.5vw;
+    border-radius: 50px;
+}
+
+.trending-item {
+    display: flex;
+    padding: 8px;
+    padding-left: 50px;
+}
+
+.profile-trending-text {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.profile-tag {
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.profile-p-tag {
+    font-size: 15px;
+    padding-top: 5px;
 }
