@@ -420,14 +420,14 @@ button {
 
 
 .trending-profile-image {
-    width: 3vw;
+    width: 3.3vw;
     border-radius: 50px;
 
 }
 
 .trending-item {
     display: flex;
-    padding: 8px;
+    padding: 5px;
     padding-left: 50px;
 }
 
