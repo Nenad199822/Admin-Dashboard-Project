@@ -260,10 +260,13 @@ button {
 
 /* Header End */
 .main-content {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px 1fr;
     grid-row: 2/3;
     background-color: #d7ebf0;
 
 }
+
 
 .project-name-text:hover {
     cursor: pointer;
@@ -325,12 +328,14 @@ button {
     grid-template-rows: 1fr 1fr;
 }
 
-.right-side-text {
-    padding-right: 40px;
+.announcements {
+    padding-right: 60px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    justify-content: start;
 }
 
-.your-project-text,
-.right-side-text {
+.your-project-text {
     padding-top: 40px;
     padding-left: 40px;
     font-family: sans-serif;
@@ -342,5 +347,32 @@ button {
 
 .right-side {
     grid-column: 4/5;
-    grid-row: 1/2
+    grid-row: 1/2;
+    height: 75vh;
+    padding-right: 20px;
+
+}
+
+.site-maintenance {
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.section-announcements p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-announcements {
+    padding: 1.5rem;
+    border-bottom: 0.3px solid rgb(177, 173, 173);
+}
+
+.announcemenets-container {
+    width: 16vw;
+    height: 18vw;
+    margin-top: 21px;
+    background-color: #fdffff;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
