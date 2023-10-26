@@ -261,7 +261,7 @@ button {
 /* Header End */
 .main-content {
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 50px 20px 1fr;
     grid-row: 2/3;
     background-color: #d7ebf0;
 
@@ -290,8 +290,8 @@ button {
 }
 
 .project {
-    width: 20vw;
-    height: 15vw;
+    width: 28vw;
+    height: 10vw;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -318,14 +318,20 @@ button {
 
 .your-projects {
     grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .your-projects {
     padding: 2rem;
     display: grid;
     gap: 20px 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.trending {
+    padding-top: 10px;
+    font-family: sans-serif;
 }
 
 .announcements {
@@ -349,30 +355,43 @@ button {
     grid-column: 4/5;
     grid-row: 1/2;
     height: 75vh;
-    padding-right: 20px;
+    padding-right: 30px;
 
 }
+
+/* Right Side Main Container */
 
 .site-maintenance {
     font-family: sans-serif;
     margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .section-announcements p {
-    font-size: 15px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-announcements {
-    padding: 1.5rem;
+    width: 15vw;
+    height: 5vw;
+    padding: 1.4rem;
     border-bottom: 0.3px solid rgb(177, 173, 173);
 }
 
 .announcemenets-container {
-    width: 16vw;
-    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 2/3;
+    width: 17vw;
+    height: 16vw;
     margin-top: 21px;
     background-color: #fdffff;
     border-radius: 7px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.trending-container {
+    margin-top: 20px;
 }
